@@ -90,7 +90,7 @@ python tracker_pro.py
 
 ## Screenshots
 <img width="861" height="766" alt="Screenshot 2026-05-17 190220" src="https://github.com/user-attachments/assets/cfef8542-4ee1-4960-93fb-5e2396112562" />
-<img width="861" height="766" alt="Screenshot 2026-05-17 190220" src="https://github.com/user-attachments/assets/56025b14-f51e-4279-89a7-1de03d6061e5" />
+<img width="1142" height="838" alt="Screenshot 2026-05-17 190240" src="https://github.com/user-attachments/assets/ee0e2c76-07fe-4921-b88c-8b732b6acd68" />
 
 
 
