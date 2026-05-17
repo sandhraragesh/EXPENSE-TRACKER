@@ -1,70 +1,103 @@
-# Tracker App
+# Expense Tracker Pro
 
-A smart tracking application built using Python and Machine Learning.
+A modern Expense Tracker application built using Python and Tkinter to help users manage and analyze their daily expenses efficiently.
+
+This application allows multiple users to track expenses, generate reports, and visualize spending patterns using charts.
 
 ## Features
 
-- Track user/device/location data
-- Predict patterns using ML algorithms
-- Data visualization
-- CSV dataset support
-- Real-time analysis
-- Easy-to-use interface
+- User login system
+- Add and manage expenses
+- Store expenses separately for each user
+- Automatic date tracking
+- View total expenses
+- Monthly expense reports
+- Expense category analysis
+- Interactive charts using Matplotlib
+- Simple and user-friendly GUI
 
 ## Technologies Used
 
 - Python
-- Pandas
-- NumPy
-- Scikit-learn
+- Tkinter
+- CSV File Handling
 - Matplotlib
-- VS Code
+- Datetime Module
 
-## Algorithms Used
 
-- Random Forest
-- XGBoost
-- Decision Tree
-- Logistic Regression
+## Features in tracker_pro.py
+
+- Multi-user support
+- Monthly report generation
+- Pie chart visualization
+- Expense history table
+- Date-wise expense tracking
+- Separate expense files for each user
 
 ## Installation
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/tracker-app.git
+git clone https://github.com/yourusername/expense-tracker-pro.git
 ```
 
-2. Open project folder
+2. Open the project folder
 
 ```bash
-cd tracker-app
+cd expense-tracker-pro
 ```
 
-3. Install dependencies
+3. Install required packages
 
 ```bash
-pip install -r requirements.txt
+pip install matplotlib
 ```
 
-4. Run the app
+4. Run the application
 
 ```bash
-python app.py
+python tracker_pro.py
 ```
 
-## Dataset
+## How It Works
 
-The project uses CSV datasets for training and prediction.
+1. User enters username
+2. Application creates a separate CSV file for that user
+3. Expenses are stored with:
+   - Amount
+   - Category
+   - Description
+   - Date
+4. User can:
+   - View total expenses
+   - Generate charts
+   - View monthly reports
+
+## Charts Included
+
+- Expense by Category (Pie Chart)
+- Monthly Expense Analysis
 
 ## Future Improvements
 
-- Mobile app integration
-- Live GPS tracking
-- Cloud database support
-- Better UI/UX
-- Deep learning integration
+- SQLite/MySQL database integration
+- Export reports to PDF
+- Mobile app version
+- AI-based expense prediction
+- Dark mode UI
+- Budget limit alerts
+
+## Screenshots
+<img width="861" height="766" alt="Screenshot 2026-05-17 190220" src="https://github.com/user-attachments/assets/cfef8542-4ee1-4960-93fb-5e2396112562" />
+<img width="861" height="766" alt="Screenshot 2026-05-17 190220" src="https://github.com/user-attachments/assets/56025b14-f51e-4279-89a7-1de03d6061e5" />
+
+
 
 ## Author
 
-Sandhra
+Sandhra R
+
+## License
+
+This project is for educational and learning purposes.
